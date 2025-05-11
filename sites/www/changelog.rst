@@ -2,6 +2,7 @@
 Changelog
 =========
 
+- :support:`-` Drop support for Python 3.6.
 - :release:`2.2.0 <2023-07-12>`
 - :feature:`-` Remove the somewhat inaccurate subclass requirement around
   `~invoke.config.Config`'s ``.clone(into=...)`` constructor call. It was
