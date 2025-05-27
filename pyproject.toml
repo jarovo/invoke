@@ -1,3 +1,20 @@
+[project]
+name = "invoke"
+# TODO: soooo what do about runtime access to version info these days? is that
+# what 'packaging' is for now? what was the latest thing a few years ago?
+# TODO: or is this a job for the hybrid toml/py approach re: hynek?
+version = "0.1.0"
+# TODO: or higher. sigh
+requires-python = ">=3.7"
+
+# TODO: rest of my setup.py here, as needed, again leaving truly necessary
+# dynamism in there.
+# TODO: eg: readme-as-long_description - is that still a thing? what do other
+# folks do? can we just indicate a file "as the long desc"?
+
+# TODO: clean up / doublecheck the below
+# TODO: also modernize the type hints, tho maybe check to see if someone
+# already has sigh
 [tool.mypy]
 # check_untyped_defs = true
 # follow_imports_for_stubs = true
